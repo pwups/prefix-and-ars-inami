@@ -18,7 +18,7 @@ async def on_ready():
 # Commands
 @bot.command(name="a")
 async def approve(ctx):
-    await ctx.send("_ _\n\n　　　　𝜗 　[**checkpoints required**]( https://discord.gg/SAzqaQuCQA )\n　　　　don't join if not posting yet\n-# _ _　　　⠀  **1w  to  post  ask  4  ext.**　<a:freedom:1350041904099889182> 　୧\n\n_ _")
+    await ctx.send("_ _\n\n　　　　𝜗 　[**checkpoints required**]( https://discord.gg/SAzqaQuCQA )\n　　　　don't join if not posting yet\n-# _ _　　　⠀  **24h  to  post  ask  4  ext.**　<a:freedom:1350041904099889182> 　୧\n\n_ _")
 
 @bot.command(name="d")
 async def sep_over(ctx):
@@ -39,11 +39,11 @@ async def on_message(message):
 
     # Autoresponder for "rainbow sprinkles"
     if message.content.lower() == "rainbow sprinkles":
-        await message.channel.send("_ _\n\n　　**send a song reco**　·　<a:star1:1365889441310179389>\n　　i like = free ovn　✿\n\n_ _")
+        await message.channel.send("_ _\n\n　　**send a song reco**　·　<a:star1:1365889441310179389>\n　　i like  =  free ovn　✿　⁺ ℘\n\n_ _")
 
     # Autoresponder for "freaky"
     if message.content.lower() == "freaky":
-        await message.channel.send("_ _\n\n　　**pls send an eren gif heh.**　·　<:freaky:1365898553578487808>\n\n_ _")
+        await message.channel.send("_ _\n\n　　**pls send an eren gif heh.**　　<:freaky:1365898553578487808>\n\n_ _")
 
     # Process commands (very important)
     await bot.process_commands(message)
